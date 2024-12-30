@@ -1,0 +1,51 @@
+/* style.css */
+body {
+    background-color: #1f1f1f;
+   /* background-image: url('images.jpeg');  Arka plan resmi */
+    background-size: cover; /* Resmin tüm alanı kaplamasını sağlar */
+    background-position: center center; /* Resmin ortalanmasını sağlar */
+    background-attachment: fixed; /* Resmin kaydırıldığında sabit kalmasını sağlar */
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #263238;
+    padding: 10px;
+    color: #00bcd4;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #8bc34a;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #00bcd4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #00bcd4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
